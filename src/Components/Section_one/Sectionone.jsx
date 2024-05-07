@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sectionone.css'
-import profile from '../../assets/profile.jpg'
+import profile from '../assets/profile.jpg'
 
 
 const Sectionone = () => {
