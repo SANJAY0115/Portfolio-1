@@ -1,0 +1,41 @@
+.contact{ display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3% 15% 5%;
+    width: 70%;}
+.contact h2{font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding: 3% 0% 0%;}    
+.contact .left{    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;gap: 15px;padding: 0% 5% 0% 0%;}
+.contact .left .in{    display: flex;
+    justify-content: center;
+    align-items: center;}
+.contact .left .in .icon{display: flex;
+    justify-content: center;
+    align-items: center;}
+.contact .left .in .icon img{    width: 100%;
+    max-width: 60px;}
+.contact .left .in .detail{    display: flex;
+    justify-content: center;
+    align-items: center;}
+.contact .left .in .detail a{   color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;}
+.contact .left .in .detail p{font-size: 16px;font-weight: 400;line-height: 24px;}
+.contact .right{width: 50%;display: flex;justify-content: center;align-items: center;}
+.contact .right form{width: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.contact .right form input{font-family: 'Roboto', sans-serif;width: 100%;border: none;border-bottom: 1px solid #000 !important;font-size: 15px;outline: none;padding: 0px 0px 7px;margin: 0px 0px 25px;}
+.contact .right form textarea{font-family: 'Roboto', sans-serif;width: 100%;border: none;border-bottom: 1px solid #000 !important;font-size: 15px;outline: none;padding: 0px 0px 7px;margin: 0px 0px 25px;line-height: 45px;}
+.contact .right form button{color: #fff;
+    background: #05304d;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 25px;
+    text-transform: uppercase;border: none;outline: none;cursor: pointer;font-family: 'Roboto', sans-serif;}
