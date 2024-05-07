@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sectionone.css'
+import profile1 from './docs/img/banner-I_Z1_ldd.jpg'
 import profile from '../../assets/profile.jpg'
 
 
@@ -8,6 +9,7 @@ const Sectionone = () => {
     <div className='section_one' name='Sectionone'>
         <div className='left'>
             <img src={profile} />
+            <img src={profile1} />
         </div>
         <div className='right'>
             <h2>Hi, I'm Arun</h2>
