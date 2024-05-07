@@ -11,7 +11,7 @@ const About = () => {
     <div className='about-section' name="About">
         <div className='box'>
             <div className='logo'>
-                <img src={data?.edu}</img>} />
+                <img src={edu}</img>} />
             </div>
             <div className='content'>
                 <h2>Education</h2>
